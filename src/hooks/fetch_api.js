@@ -3,8 +3,6 @@ import axios from 'axios'
 import fetchAPIReducer, { initialState } from './fetch_api_reducer'
 
 const SERVER_URL = process.env.REACT_APP_API_DOMAIN_URL
-// const SERVER_URL = 'http://localhost:8080'
-// const SERVER_URL = 'https://glacial-forest-56223.herokuapp.com'
 
 const useFetchAPI = (path) => {
   const [resourcePath] = useState(path)
